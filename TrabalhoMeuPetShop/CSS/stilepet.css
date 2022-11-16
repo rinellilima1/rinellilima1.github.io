@@ -1,0 +1,293 @@
+/*Base*/
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+span {
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: magenta;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: broadway;
+}
+
+nav {
+    text-align: center;
+}
+
+.cabecalho {
+    padding: 20px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: magenta;
+    color: black;
+    margin-top: auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: broadway;
+}
+
+/* Menu */
+
+.listatopo {
+    list-style-type: none;
+}
+
+.listatopo>li {
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+}
+
+.Icone {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.Topo {
+    text-align: center;
+    width: 20%;
+}
+
+/* Principal */
+.secao {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto;
+}
+
+.divisao {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    color: black;
+}
+
+.servicos {
+    text-align: center;
+    color: black;
+    font-size: 13pt;
+    font-weight: bold;
+    font-family: broadway;
+    width: 600px;
+}
+
+#amarelo {
+    color: yellow;
+}
+
+th {
+    color: yellow;
+    ;
+    border: 2px solid pink;
+}
+
+td {
+    color: whitesmoke;
+    border: 2px solid pink;
+
+}
+
+.produtos {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.IMGProd {
+    height: 200px;
+    width: 200px;
+    border: 1px solid pink;
+    border-radius: 8px 8px 0 0;
+    margin-left: 40px;
+}
+
+.IMGProd2 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid pink;
+    border-radius: 8px 8px 0 0;
+    margin-left: 80px;
+}
+
+.ProdDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    font-size: 20pt;
+    font-family: broadway;
+    color: yellow;
+}
+
+.ProdPrec {
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: broadway;
+    color: pink;
+}
+
+/*LOGIN*/
+
+#loginpage {
+    font-size: 35px;
+    text-align: center;
+}
+
+#acessar {
+    color: yellow;
+    font-family: broadway;
+}
+
+#login,
+#senha {
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botaologin {
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    font-size: 25px;
+    font-family: broadway;
+} /*válido pro contato.html*/
+
+/*Contato*/
+
+#acessarB {
+    text-align: center;
+    font-family: broadway;
+    font-size: 50px;
+    color: yellow
+}
+
+#contato {
+    font-size: 25px;
+    text-align: center;
+}
+
+#loginB,
+#email {
+    border-radius: 20px;
+    width: 300px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#mensagem {
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+/*Quem somos*/
+
+.sobrenos {
+    font-size: 23px;
+    color: yellow;
+    text-align: left;
+}
+
+#title {
+    font-size: 60px;
+    text-align: center;
+    color: pink;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#unique {
+    color: pink;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 10px;
+
+}
+
+#fim {
+    height: 100px;
+    width: 100px;
+}
+
+/*Nossos Pets*/
+
+.pets {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.blocopet {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid pink;
+    width: 100%;
+    height: 100%;
+
+}
+
+.animais {
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.descricaopet {
+    font-size: 20px;
+    font-family: ARIAL;
+    font-weight: bold;
+    color: yellow;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
